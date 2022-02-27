@@ -16,6 +16,7 @@ html{
 
 body{
     font-size: 1.6rem;
+    font-family: 'Roboto Mono', monospace;
 }
 
 
@@ -25,3 +26,56 @@ body{
     --letraNormal:1.6rem;
     --letraChica:1.4rem;
 }
+
+
+
+
+/*ESTILOS PARA LA NAVEGACION */
+
+.navegacion{
+    height: 10vh;
+    
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.navegacion__elementos li img{
+    height: 15px;
+}
+
+.navegacion__elementos h2{
+    font-size: 16px;
+}
+
+.navegacion__elementos h3{
+    font-size: 14px;
+}
+
+.navegacion__elementos  li:nth-child(1){
+    display:flex;
+    align-items: center;
+}
+
+.navegacion__elementos li {
+
+    list-style: none; 
+
+}
+
+.navegacion__elementos {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+
+
+
+
+
+
+
+
