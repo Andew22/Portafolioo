@@ -1,0 +1,27 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    font-size: 1.6rem;
+}
+
+
+:root{
+    --blanco:white;
+    --letraGrande:2.2rem;
+    --letraNormal:1.6rem;
+    --letraChica:1.4rem;
+}
