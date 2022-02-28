@@ -148,6 +148,31 @@ body{
 
 }
 
+/*ESTILOS SOBRE MI  */
+.principal_sobremi {
+    height:45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    background-color:rgb(26, 26, 26);
+    margin: 0 auto;
+
+}
+
+.principal_sobremi h2{
+  font-size:2rem;
+  width:90%;
+  margin:0 auto;
+  color:white;
+}
+
+.principal_sobremi p{
+    width:90%;
+    margin:0 auto;
+    color:white;
+  }
+
+
 
 
 
