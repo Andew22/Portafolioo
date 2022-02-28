@@ -227,7 +227,8 @@ grid-template-columns: 50% 50%;
 
 .principal__softSkills{
     height: 50vh;
-    background-color:rgb(156, 156, 156);
+    background-color:rgb(26, 26, 26);
+
   
 
 
@@ -236,6 +237,7 @@ grid-template-columns: 50% 50%;
 .principal__softSkills h2{
     text-align: center;
     padding-top: 20px;
+    color:White;
 
 
 }
@@ -246,7 +248,7 @@ grid-template-columns: 50% 50%;
 }
 
 
-.principal__softSkills ul li{
+.principal__softSkills ul li {
     width:90%;
     margin:0 auto;
     list-style: none;
@@ -265,4 +267,124 @@ grid-template-columns: 50% 50%;
   
 }
 
+
+
+
+/* ESTILOS DE FORMACION ACADEMICA */
+
+.principal__formacionAcademica {
+    height:100vh;
+    margin-bottom:40px;
+
+}
+
+.principal__formacionAcademica h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+
+.principal__formacionAcademica ul li img{
+    height:100px;
+
+}
+
+.principal__formacionAcademica ul {
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.principal__formacionAcademica ul li div {
+ list-style: none;
+ width:90%;
+ margin: 0 auto;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 10px;
+ border: 2px solid black; 
+
+    
+}
+
+.principal__formacionAcademica ul li div:hover {
+
+    border: 2px solid green; 
+}
+
+.principal__formacionAcademica ul li h4 {
+
+    width:90%;
+    margin: 0 auto;
+   
+   }
+
+   .margin-bot{
+       margin-bottom: 20px;
+   }
+
+.principal__formacionAcademica ul li h5 {
+
+    width:90%;
+    margin: 0 auto;
+   
+   }
+
+
+
+ /*ESTILOS DE EXPERIENCIA PROFESIONAL */  
+
+
+
+ .principal_expProfesional{
+    height:100vh;
+    background-color:rgb(26, 26, 26);
+    color:white;
+ }
+
+ .principal_expProfesional h2{
+     text-align: center;
+     
+    
+ }
+
+
+ .principal_expProfesional ul  {
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+ }
+
+ .principal_expProfesional ul li  {
+     list-style: none;
+     width:90%;
+     margin: 0 auto;
+    height:30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
+ }
+ 
+
+ .principal_expProfesional ul li img {
+    height:70%;
+    width:80%;
+ }
+
+ 
+
+ .principal_expProfesional__etiqueta{
+     margin-top:10px;
+     padding: 3px;
+     border: 1px solid white;
+
+ }
 
