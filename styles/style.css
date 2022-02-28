@@ -176,7 +176,51 @@ body{
 
 
 
+/*ESTILOS DE SKILLS */
 
+.principal__skills {
+    height: 50vh;
+    width: 90%;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+
+}
+
+.principal__skills h2 {
+    padding-top:30px;
+    text-align: center;
+
+}
+
+
+
+.principal__skills ul li svg {
+
+    height: 50px;
+}
+
+
+.principal__skills ul li  {
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.principal__skills ul   {
+
+list-style: none;
+display:grid;
+place-items: center;
+gap:30px;
+grid-template-columns: 50% 50%;
+
+   
+}
 
 
 
