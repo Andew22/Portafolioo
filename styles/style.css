@@ -34,10 +34,10 @@ body{
 
 .navegacion{
     height: 10vh;
-    
     display:flex;
     justify-content:center;
     align-items: center;
+   
 }
 
 .navegacion__elementos li img{
@@ -70,6 +70,85 @@ body{
     width: 90%;
 
 }
+
+
+
+/*ESTILOS PARA LA EL CONTENIDO PRINCIPAL */
+
+
+.principal{
+    width: 100%;
+    margin:0 auto;
+}
+
+.principal h1{
+ font-size:2rem;
+}
+
+.principal h1 span {
+    position:absolute;
+    right:0;
+    width:10;
+    background: white;
+  
+    animation: escribir 3s steps(15)  alternate;
+ 
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0}
+}
+
+
+/*ESTILOS PARA PRESENTACION */
+
+.principal__presentacion  {
+  height:45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width:90%;
+  margin: 0 auto;
+
+}
+
+.principal__presentacion img {
+    width:100px;
+    border-radius: 50px;
+  }
+
+
+.principal__presentacion p{
+    font-size: 1.6rem;
+}
+
+
+
+.principal__presentacion__iconos li svg {
+    height: 25px;
+    
+}
+
+
+.principal__presentacion__iconos li   {
+   list-style: none;
+    
+}
+.principal__presentacion__iconos li a  {
+    
+      cursor: pointer;
+ }
+ 
+
+.principal__presentacion__iconos{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+
+}
+
+
 
 
 
