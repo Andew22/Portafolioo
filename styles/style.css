@@ -377,6 +377,7 @@ grid-template-columns: 50% 50%;
  .principal_expProfesional ul li img {
     height:70%;
     width:80%;
+    border-radius: 5px;
  }
 
  
@@ -388,3 +389,71 @@ grid-template-columns: 50% 50%;
 
  }
 
+
+
+ /*ESTILOS DE CONTACTO  */
+
+
+ .principal_contacto{
+    
+
+    width:90%;
+    margin: 0 auto;
+ }
+
+
+
+ .principal_contacto h2{
+     margin-top: 20px;
+    text-align: left;
+    
+}
+
+
+
+.acomodarInputs{
+    display: flex;
+     flex-direction: column;
+     
+}
+
+
+.principal_contacto form{
+   
+    display: flex;
+    flex-direction: column;
+     justify-content:space-evenly;
+     gap:25px;
+   
+     margin-top: 20px;
+     margin-bottom:30px;
+}
+
+
+
+.principal_contacto form input{
+   padding:5px;
+}
+
+
+
+#txt{
+    resize: none;
+}
+
+
+
+
+/*ESTILOS DEL FOOTER */
+
+.footer__mensaje{
+
+    width:100%;
+    color:white;
+    background-color:rgb(26, 26, 26);
+    padding: 10px;
+    text-align:center;
+
+
+
+}
