@@ -219,11 +219,50 @@ place-items: center;
 gap:30px;
 grid-template-columns: 50% 50%;
 
-   
 }
 
 
+/*ESTILOS DE SOFT SKILLS */
 
 
+.principal__softSkills{
+    height: 50vh;
+    background-color:rgb(156, 156, 156);
+  
+
+
+}
+
+.principal__softSkills h2{
+    text-align: center;
+    padding-top: 20px;
+
+
+}
+
+.principal__softSkills ul li svg{
+    height:30px;
+ 
+}
+
+
+.principal__softSkills ul li{
+    width:90%;
+    margin:0 auto;
+    list-style: none;
+    background-color: white;
+    padding: 5px;
+    border-radius:10px;
+
+  
+}
+
+.principal__softSkills ul {
+    height:40vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+  
+}
 
 
