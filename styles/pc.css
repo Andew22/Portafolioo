@@ -1,0 +1,17 @@
+
+@media (min-width: 1000px) {
+   
+   .contenedorbody{
+       width: 70%;
+       margin: 0 auto;
+   }
+
+   .principal_expProfesional ul li img {
+    height:80%;
+    width:50%;
+    border-radius: 5px;
+ }
+        
+
+
+  }
