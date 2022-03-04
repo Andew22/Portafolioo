@@ -259,19 +259,24 @@
      
     }
 
-    .principal_expProfesional ul li  {
+   .principal_expProfesional ul li  {
       
         width:80%;
+        padding: 50px;
         border: 5px dotted black;
+        
        
     }
 
     .principal_expProfesional{
         height:50vh;
-
+        padding:20px;
+    
         background-color:white;
         color:rgb(26, 26, 26);
+        margin-bottom: 150px;
      }
+
 
      .principal_expProfesional  ul {
          margin-top:100px;
