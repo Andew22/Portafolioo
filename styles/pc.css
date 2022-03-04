@@ -1,8 +1,8 @@
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
    
    .contenedorbody{
-       width: 70%;
+       width: 100%;
        margin: 0 auto;
    }
 
@@ -11,7 +11,304 @@
     width:50%;
     border-radius: 5px;
  }
-        
 
+
+ .principal__presentacion img {
+    max-width:300px;
+    max-height:300px;
+     border-radius: 150px;
+   
+  }
+
+  .principal__presentacion{
+      height: 60vh;
+  }
+
+.navegacion{
+
+    background-color:rgb(26, 26, 26);
+    width: 100%;
+    margin: 0 auto;
+    color:white;
+   
+   
+}
+
+.navegacion ul{
+    padding-left: 30px;
+    padding-right: 30px;
+   
+
+
+ 
+   
+}
+
+
+
+
+
+.navegacion ul li h3{
+    color:white;
+   
+}
+
+
+
+.esconder a{
+
+ text-decoration:none;
+ color:black;
+
+}
+
+.esconder a :hover{
+ font-size:2rem ;
+   
+   }
+
+ .navegacion ul ul{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+   
+ }
+
+ .contacto{
+      display: none;
+ }
+
+
+
+ .principal__presentacion h1 {
+
+    font-size: 3.5rem;
+  
+  }
+
+  .principal__presentacion p{
+
+    font-size: 2.2rem;
+  
+  }
+
+  .principal_sobremi h2{
+    font-size:3.2rem;
+   
+  }
+
+  .principal_sobremi p{
+ font-size:1.6rem;
+  }
+
+  .principal_sobremi {
+   height:30vh;
+     }
+  
+
+  .principal__presentacion{
+      width: 80%;
+    
+  }
+
+.habilidades{
+    width:80%;
+    margin: 0 auto;
+    display: grid;
+     grid-template-columns:50% 50% ;
+     margin-top:100px;
+     margin-bottom: 100px;
+     
+    
+
+}
+
+.principal__softSkills{
+    background-color:white;
+}
+
+.principal__softSkills ul li {
+    width:80%;
+    margin:0 auto;
+    list-style: none;
+
+    color:rgb(26, 26, 26);
+    padding: 5px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+   
+
+  
+}
+
+.principal__softSkills h2{
+    text-align: center;
+    padding-top: 20px;
+    color:black;
+
+
+}
+
+
+.principal__skills ul{
+     display:flex;
+     flex-direction:column;
+     align-items: flex-start;
+}
+
+
+.skills__flex{
+    display: flex;
+    flex-direction:row;
+}
+
+.principal__skills ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+}
+
+.principal__skills {
+    height: 50vh;
+    display:inline-block;
+}
+
+.principal__skills ul {
+    height:40vh;
+   display: flex; 
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.principal__skills h2{
+ padding-bottom: 30px;
+}
+
+.principal__softSkills h2{
+    padding-bottom: 30px;
+
+}
+
+
+.principal__formacionAcademica {
+    height:50vh;
+    margin-bottom:40px;
+
+}
+
+.principal__formacionAcademica ul {
+    height:40vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width:90%;
+    margin: 0 auto;
+   
+   
+ 
+}
+
+.principal__formacionAcademica {
+    background-color: rgb(26, 26, 26);
+    color:White;
+
+}
+
+.principal__formacionAcademica ul li {
+
+    border: 2px solid white;
+   
+    
+   
+ 
+}
+
+.principal__formacionAcademica ul li img{
+  
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+
+}
+
+
+
+
+.principal_sobremi h2{
+
+    width:80%;
 
   }
+  
+  .principal_sobremi p{
+      width:80%;
+   
+    }
+
+
+    .principal__formacionAcademica ul {
+    
+        width:80%;
+
+       
+       
+       
+     
+    }
+
+    .principal_expProfesional ul li  {
+      
+        width:80%;
+        border: 5px dotted black;
+       
+    }
+
+    .principal_expProfesional{
+        height:50vh;
+
+        background-color:white;
+        color:rgb(26, 26, 26);
+     }
+
+     .principal_expProfesional  ul {
+         margin-top:100px;
+         display:Grid;
+         grid-template-columns: 50% 50%;
+         
+        
+
+    
+    }
+    
+    
+
+
+
+    
+  
+
+
+}
+
+@media (min-width: 1124px) {
+    .principal__presentacion h1 {
+
+        font-size: 4rem;
+      
+      }
+
+}
+
+
+@media (min-width: 1390px) {
+    .principal__presentacion h1 {
+
+        font-size: 5.2rem;
+      
+      }
+
+}
+
