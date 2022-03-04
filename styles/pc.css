@@ -195,7 +195,7 @@
 
 
 .principal__formacionAcademica {
-    height:50vh;
+    height:60vh;
     margin-bottom:40px;
 
 }
@@ -259,10 +259,11 @@
      
     }
 
-   .principal_expProfesional ul li  {
+    .principal_expProfesional ul li  {
       
         width:80%;
-        padding: 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
         border: 5px dotted black;
         
        
@@ -276,7 +277,6 @@
         color:rgb(26, 26, 26);
         margin-bottom: 150px;
      }
-
 
      .principal_expProfesional  ul {
          margin-top:100px;
@@ -316,4 +316,5 @@
       }
 
 }
+
 
